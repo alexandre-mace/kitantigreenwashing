@@ -10,7 +10,7 @@ export default function Home() {
                 <title>Kit anti greenwashing</title>
                 <meta name="description" content="Savoir répondre facilement au greenwashing"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                <link rel="icon" href="/favicon.ico"/>
+                <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/magic-wand_1fa84.png"/>
             </Head>
             <main className={"pb-48"}>
                 <header className="flex justify-between">
