@@ -72,6 +72,19 @@
     "iconSizeCorrection": null,
     "subtopics": [
       {
+        "title": "Émissions",
+        "tools": [
+          {
+            "content": "Sur les émissions (uniquement territoriales) de CO2 cumulées depuis 1750, la France est numéro 8 mondial",
+            "source": "https://bonpote.com/analyse-la-france-ne-represente-que-1-des-emissions-de-co2/"
+          },
+          {
+            "content": "La France représente 1,5% des émissions mondiales de GES quand on additionne les émissions territoriales (émises sur le territoire national) et les émissions importées (liées aux importations). La France représente environ 0,8 % de la population mondiale, ce qui signifie que la part française annuelle est proche du double de la part de sa population sur la planète.",
+            "source": "https://bonpote.com/analyse-la-france-ne-represente-que-1-des-emissions-de-co2/"
+          }
+        ]
+      },
+      {
         "title": "Mix électrique",
         "tools": [
           {
