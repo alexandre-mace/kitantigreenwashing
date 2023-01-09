@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import data from '../data.json'
-import CopyToClipboard from "./components/CopyToClipboard";
+import CopyToClipboard from "../components/CopyToClipboard";
 
 export default function Home() {
-
     return (
         <>
             <Head>
@@ -12,7 +11,10 @@ export default function Home() {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/magic-wand_1fa84.png"/>
             </Head>
-            <main className={"pb-48"}>
+            <main>
+
+            </main>
+            <main className={"pb-48 w-11/12 mx-auto md:w-full"}>
                 <header className="flex justify-between">
                     <div></div>
                     <div className="">
