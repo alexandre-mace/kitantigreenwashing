@@ -1,0 +1,138 @@
+[
+  {
+    "title": "Aviation",
+    "icon": "✈️",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Emissions de CO2",
+        "tools": [
+          {
+            "content": "4-5% d'augmentation depuis 2010 (2010-2018)",
+            "source": "https://ourworldindata.org/co2-emissions-from-aviation#aviation-accounts-for-2-5-of-global-co2-emissions"
+          }
+        ]
+      },
+      {
+        "title": "Trainées de condensation",
+        "tools": [
+          {
+            "content": "Les études récentes démontrent que l'effet des traînées de condensation contribue davantage au réchauffement climatique que tout le CO2 émis par les avions. Ces effets devraient s'aggraver à mesure que le trafic aérien et la couverture nuageuse qui en résulte augmentent.",
+            "source": "https://librairie.ademe.fr/mobilite-et-transport/4617-etat-de-l-art-de-la-recherche-scientifique-sur-l-impact-climatique-des-trainees-de-condensation-des-avions.html"
+          },
+          {
+            "content": "Lorsque les études plus récentes ajoutent les effets des cirrus de traînée, le RFI augmente et il est estimé entre 3,8 et 4,3. Les nuages induits par l'aviation (traînées persistantes et cirrus de traînée) contribuent dans ce contexte, entre 71 % à 75 % au RF total de l'aviation.",
+            "source": "https://librairie.ademe.fr/mobilite-et-transport/4617-etat-de-l-art-de-la-recherche-scientifique-sur-l-impact-climatique-des-trainees-de-condensation-des-avions.html"
+          },
+          {
+            "content": "Les PRG et GTP captent le fait que des effets constants à courte durée de vie maintiennent un niveau de réchauffement à peu près constant, tandis que des effets constants climatiques à longue durée de vie, comme le CO2, continuent de s'accumuler dans l'atmosphère, ce qui entraîne une augmentation constante du niveau du réchauffement associé.",
+            "source": "https://librairie.ademe.fr/mobilite-et-transport/4617-etat-de-l-art-de-la-recherche-scientifique-sur-l-impact-climatique-des-trainees-de-condensation-des-avions.html"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Énergies renouvelables",
+    "icon": "🌦️",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Général",
+        "tools": [
+          {
+            "content": "Atteindre la neutralité carbone est impossible sans un développement significatif des énergies renouvelables",
+            "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
+          }
+        ]
+      },
+      {
+        "title": "Économie",
+        "tools": [
+          {
+            "content": "Les énergies renouvelables électriques sont devenues des solutions compétitives. Cela est d’autant plus marqué dans le cas de grands parcs solaires et éoliens à terre et en mer",
+            "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
+          }
+        ]
+      },
+      {
+        "title": "Environnement",
+        "tools": [
+          {
+            "content": "L’économie de la transition énergétique peut générer des tensions sur l’approvisionnement en ressources minérales, particulièrement pour certains métaux, qu’il sera nécessaire d’anticiper",
+            "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "France",
+    "icon": "🇫🇷",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Mix électrique",
+        "tools": [
+          {
+            "content": "Atteindre la neutralité carbone est impossible sans un développement significatif des énergies renouvelables",
+            "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
+          },
+          {
+            "content": "Se passer de nouveaux réacteurs nucléaires implique des rythmes de développement des énergies renouvelables plus rapides que ceux des pays européens les plus dynamiques",
+            "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
+          },
+          {
+            "content": "Construire de nouveaux réacteurs nucléaires est pertinent du point de vue économique, a fortiori quand cela permet de conserver un parc d’une quarantaine de GW en 2050 (nucléaire existant et nouveau nucléaire)",
+            "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
+          },
+          {
+            "content": "Les énergies renouvelables électriques sont devenues des solutions compétitives. Cela est d’autant plus marqué dans le cas de grands parcs solaires et éoliens à terre et en mer",
+            "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
+          },
+          {
+            "content": "L’hydrogène constitue en premier lieu un moyen de décarboner des secteurs difficiles voire impossibles à électrifier sur le plan technique ou économique (raffinage, production d’ammoniac, chimie et mobilité lourde)",
+            "source": "https://assets.rte-france.com/prod/public/2021-12/Futurs-Energetiques-2050-principaux-resultats.pdf"
+          },
+          {
+            "content": "Pour 2030 : développer les énergies renouvelables matures le plus rapidement possible et prolonger les réacteurs nucléaires existants dans une logique de maximisation de la production bas-carbone augmente les chances d’atteindre la cible du nouveau paquet européen « -55% net » ",
+            "source": "https://assets.rte-france.com/prod/public/2021-12/Futurs-Energetiques-2050-principaux-resultats.pdf"
+          },
+          {
+            "content": "Le développement des énergies renouvelables soulève un enjeu d’occupation de l’espace et de limitation des usages. Il peut s’intensifier sans exercer de pression excessive sur l’artificialisation des sols, mais doit se poursuivre dans chaque territoire en s’attachant à la préservation du cadre de vie",
+            "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
+          },
+          {
+            "content": "Les scénarios à très hautes parts d’énergies renouvelables, ou celui nécessitant la prolongation des réacteurs nucléaires existants au-delà de 60 ans, impliquent des paris technologiques lourds pour être au rendez-vous de la neutralité carbone en 2050",
+            "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
+          }
+        ]
+      },
+      {
+        "title": "Réindustrialisation",
+        "tools": [
+          {
+            "content": "Accélérer la réindustrialisation du pays, en électrifiant les procédés, augmente la consommation d’électricité mais réduit l’empreinte carbone de la France",
+            "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Hydrogène",
+    "icon": "💦",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Secteurs cibles",
+        "tools": [
+          {
+            "content": "L’hydrogène constitue en premier lieu un moyen de décarboner des secteurs difficiles voire impossibles à électrifier sur le plan technique ou économique (raffinage, production d’ammoniac, chimie et mobilité lourde)",
+            "source": "https://assets.rte-france.com/prod/public/2021-12/Futurs-Energetiques-2050-principaux-resultats.pdf"
+          }
+        ]
+      }
+    ]
+  }
+]
