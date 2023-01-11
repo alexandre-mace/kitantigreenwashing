@@ -51,7 +51,7 @@ export default function Home() {
                         {data.map((topic, index) => (
                             <div key={index} className="text-center md:text-start">
                                 <div
-                                    className="inline-flex text-5xl h-20 w-20 p-4 items-center justify-center rounded-md bg-white shadow ring-1 ring-slate-900/10">
+                                    className="inline-flex text-5xl h-20 w-20 p-4 items-center justify-center rounded-md bg-white shadow ring-1 ring-slate-900/10 icon-wrapper-animation">
                                     <div className={topic.iconSizeCorrection ? '-translate-y-1' : ''}>
                                         {topic.icon}
                                     </div>
@@ -90,5 +90,5 @@ export default function Home() {
                 </section>
             </main>
         </>
-    )
+    );
 }
