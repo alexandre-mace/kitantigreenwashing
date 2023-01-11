@@ -167,21 +167,5 @@
         ]
       }
     ]
-  },
-  {
-    "title": "Hydrogène",
-    "icon": "💦",
-    "iconSizeCorrection": null,
-    "subtopics": [
-      {
-        "title": "Secteurs cibles",
-        "tools": [
-          {
-            "content": "L’hydrogène constitue en premier lieu un moyen de décarboner des secteurs difficiles voire impossibles à électrifier sur le plan technique ou économique (raffinage, production d’ammoniac, chimie et mobilité lourde)",
-            "source": "https://assets.rte-france.com/prod/public/2021-12/Futurs-Energetiques-2050-principaux-resultats.pdf"
-          }
-        ]
-      }
-    ]
   }
 ]
