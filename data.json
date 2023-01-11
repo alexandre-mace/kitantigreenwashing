@@ -147,5 +147,41 @@
         ]
       }
     ]
+  },
+  {
+    "title": "Activisme",
+    "icon": "🪧",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Activisme radical",
+        "tools": [
+          {
+            "content": "Même si les actions radicales remportent moins l’adhésion du grand public, la couverture médiatique est tellement plus importante que l’impact finit par être quoi qu’il arrive plus important",
+            "source": "https://bonpote.com/cest-contre-productif-ca-dessert-la-cause-lactivisme-est-il-toujours-efficace/"
+          },
+          {
+            "content": "Si ce flanc radical remporte un certain succès, son but sous-jacent est également le déplacement de la fenêtre d’Overton",
+            "source": "https://bonpote.com/cest-contre-productif-ca-dessert-la-cause-lactivisme-est-il-toujours-efficace/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Hydrogène",
+    "icon": "💦",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Secteurs cibles",
+        "tools": [
+          {
+            "content": "L’hydrogène constitue en premier lieu un moyen de décarboner des secteurs difficiles voire impossibles à électrifier sur le plan technique ou économique (raffinage, production d’ammoniac, chimie et mobilité lourde)",
+            "source": "https://assets.rte-france.com/prod/public/2021-12/Futurs-Energetiques-2050-principaux-resultats.pdf"
+          }
+        ]
+      }
+    ]
   }
 ]

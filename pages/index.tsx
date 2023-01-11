@@ -9,7 +9,8 @@ export default function Home() {
                 <title>Kit anti greenwashing</title>
                 <meta name="description" content="Savoir répondre facilement au greenwashing"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/magic-wand_1fa84.png"/>
+                <link rel="icon"
+                      href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/magic-wand_1fa84.png"/>
             </Head>
             <main>
 
@@ -17,14 +18,16 @@ export default function Home() {
             <main className={"pb-48 w-11/12 mx-auto md:w-full"}>
                 <header className="flex justify-between">
                     <div></div>
-                    <div className="">
-                        <a
-                            href="https://climatelab.fr/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            par Climate Lab ⚗️
-                        </a>
+                    <div className="p-6 flex items-center">
+                        <div className={"mr-3"}>
+                            un outil du
+                        </div>
+                        <a target="_blank" rel="noopener noreferrer"
+                           className="flex items-center rounded-xl py-2 px-4 hover:bg-slate-200 transition-all"
+                           href="https://climatelab.fr"><img
+                            className="logo-img mr-1"
+                            src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/285/alembic_2697-fe0f.png"
+                            alt="Alambic" width="27" height="27"/> ClimateLab</a>
                     </div>
                 </header>
 
@@ -44,10 +47,11 @@ export default function Home() {
                 </section>
 
                 <section>
-                    <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto mt-12 pt-16" id="kit">
+                    <div className="grid md:grid-cols-3 gap-12 max-w-[90%] mx-auto mt-12 pt-16" id="kit">
                         {data.map((topic, index) => (
                             <div key={index} className="text-center md:text-start">
-                                <div className="inline-flex text-5xl h-20 w-20 p-4 items-center justify-center rounded-md bg-white shadow ring-1 ring-slate-900/10">
+                                <div
+                                    className="inline-flex text-5xl h-20 w-20 p-4 items-center justify-center rounded-md bg-white shadow ring-1 ring-slate-900/10">
                                     <div className={topic.iconSizeCorrection ? '-translate-y-1' : ''}>
                                         {topic.icon}
                                     </div>
@@ -67,11 +71,14 @@ export default function Home() {
                                                         {tool.content}
                                                     </div>
                                                     <div>
-                                                        <a className="text-slate-600 hover:underline hover:text-black text-xs" href={tool.source} target="noopener noreferer">{tool.source}</a>  🔗
+                                                        <a className="text-slate-600 hover:underline hover:text-black text-xs"
+                                                           href={tool.source}
+                                                           target="noopener noreferer">{tool.source}</a> 🔗
                                                     </div>
                                                 </div>
                                                 <div className={"pl-4"}>
-                                                    <CopyToClipboard contentToCopy={`${tool.content} (${tool.source})`}/>
+                                                    <CopyToClipboard
+                                                        contentToCopy={`${tool.content} (${tool.source})`}/>
                                                 </div>
                                             </div>
                                         ))}
