@@ -49,6 +49,22 @@
     ]
   },
   {
+    "title": "Voiture",
+    "icon": "🚗",
+    "iconSizeCorrection": null,
+    "subtopcis": [
+      {
+        "title": "Électrification",
+        "tools": [
+          {
+            "content": "emissions over the lifetime of average medium-size BEVs registered today are already lower than comparable gasoline cars by 66%–69% in Europe, 60%–68% in the United States, 37%–45% in China, and 19%–34% in India",
+            "source": "https://theicct.org/publication/a-global-comparison-of-the-life-cycle-greenhouse-gas-emissions-of-combustion-engine-and-electric-passenger-cars/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "Énergies renouvelables",
     "icon": "🌦️",
     "iconSizeCorrection": null,
