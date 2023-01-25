@@ -52,7 +52,7 @@
     "title": "Voiture",
     "icon": "🚗",
     "iconSizeCorrection": null,
-    "subtopcis": [
+    "subtopics": [
       {
         "title": "Électrification",
         "tools": [
