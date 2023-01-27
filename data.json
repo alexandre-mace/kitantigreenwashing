@@ -203,5 +203,21 @@
         ]
       }
     ]
+  },
+  {
+    "title": "Publicité",
+    "icon": "📣",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Neutralité carbone",
+        "tools": [
+          {
+            "content": "Décret n° 2022-539 du 13 avril 2022 relatif à la compensation carbone et aux allégations de neutralité carbone dans la publicité",
+            "source": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045570611"
+          }
+        ]
+      }
+    ]
   }
 ]
