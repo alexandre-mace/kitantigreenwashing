@@ -99,6 +99,15 @@
             "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
           }
         ]
+      },
+      {
+        "title": "Stockage",
+        "tools": [
+          {
+            "content": "Panorama des innovations pour un avenir alimenté par les énergies renouvelables",
+            "source": "https://www.irena.org/publications/2019/Feb/Innovation-landscape-for-a-renewable-powered-future-FR"
+          }
+        ]
       }
     ]
   },
