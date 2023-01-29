@@ -69,6 +69,22 @@
     ]
   },
   {
+    "title": "Banques",
+    "icon": "🏦",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "BNP Paribas",
+        "tools": [
+          {
+            "content": "1er en Europe et 5e mondial pour l'expansion des fossiles, 1er mondial pour le pétrole et gaz (O&G) arctiques, 1er mondial pour l’O&G en mer, 1er financeur mondial de 8 géants : TotalEnergie, ExxonMobil, Chevron, Equinor, BP, ENI, Shell et Repsol, pire banque française en terme de politique de financement des centrales à charbon comme le souligne le rapport Share Action",
+            "source": "https://www.linkedin.com/feed/update/urn:li:activity:7023919229473058816/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "Énergies renouvelables",
     "icon": "🌦️",
     "iconSizeCorrection": null,
