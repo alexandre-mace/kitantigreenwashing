@@ -10,7 +10,7 @@ export default function Home() {
                 <meta name="description" content="Savoir répondre facilement au greenwashing"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <link rel="icon"
-                      href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/magic-wand_1fa84.png"/>
+                      href="https://em-content.zobj.net/thumbs/240/apple/325/magic-wand_1fa84.png"/>
             </Head>
             <main>
 
@@ -26,7 +26,7 @@ export default function Home() {
                            className="flex items-center rounded-xl py-2 px-4 hover:bg-slate-200 transition-all"
                            href="https://climatelab.fr"><img
                             className="logo-img mr-1"
-                            src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/285/alembic_2697-fe0f.png"
+                            src="https://em-content.zobj.net/thumbs/240/apple/285/alembic_2697-fe0f.png"
                             alt="Alambic" width="27" height="27"/> ClimateLab</a>
                     </div>
                 </header>
