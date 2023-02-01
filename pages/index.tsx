@@ -94,7 +94,7 @@ export default function Home() {
               <div
                 key={index}
                 className="flex flex-col text-center md:text-start"
-                id={topic.title.charAt(0).toLowerCase()}
+                id={getNavigationIdentifier(topic)}
               >
                 <div className="icon-wrapper-animation inline-flex h-20 w-20 items-center justify-center rounded-md bg-white p-4 text-5xl shadow ring-1 ring-slate-900/10">
                   <div
@@ -105,9 +105,9 @@ export default function Home() {
                 </div>
                 <div>
                   <h2
-                    data-after={topic.title.charAt(0).toLowerCase()}
+                    data-after={getNavigationIdentifier(topic)}
                     className={`relative mt-5 mb-3 inline-block text-2xl font-bold after:absolute after:-right-10 after:top-1/2 after:flex after:h-[calc(1.375rem+1px)] after:w-[calc(1.375rem+1px)] after:-translate-y-1/2 after:items-center after:justify-center after:rounded-md after:font-mono after:text-sm after:font-bold after:text-slate-700 after:shadow-sm after:transition-all after:content-[attr(data-after)] ${
-                      keyPressed === topic.title.charAt(0).toLowerCase()
+                      keyPressed === getNavigationIdentifier(topic)
                         ? "after:ring-2 after:ring-slate-900"
                         : "after:ring-1 after:ring-slate-900/5"
                     }`}
@@ -155,3 +155,10 @@ export default function Home() {
     </>
   );
 }
+
+const getNavigationIdentifier = (topic: any) => {
+  if (topic.navigationIdentifier) {
+    return topic.navigationIdentifier;
+  }
+  return topic.title.charAt(0).toLowerCase();
+};

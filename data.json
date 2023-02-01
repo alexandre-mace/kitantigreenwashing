@@ -103,6 +103,7 @@
   {
     "title": "Énergies renouvelables",
     "icon": "🌦️",
+    "navigationIdentifier": "r",
     "iconSizeCorrection": null,
     "subtopics": [
       {
@@ -229,6 +230,7 @@
     "title": "Activisme",
     "icon": "🪧",
     "iconSizeCorrection": null,
+    "navigationIdentifier":  "k",
     "subtopics": [
       {
         "title": "Activisme radical",
