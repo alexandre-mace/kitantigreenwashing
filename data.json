@@ -30,6 +30,10 @@
           {
             "content": "4-5% d'augmentation depuis 2010 (2010-2018)",
             "source": "https://ourworldindata.org/co2-emissions-from-aviation#aviation-accounts-for-2-5-of-global-co2-emissions"
+          },
+          {
+            "content": "Le Shift Project a estimé que si seulement 3% des festivaliers des Vieilles Charrues viennent en avion, ils font plus de 60% des émissions liées au transport du public ! Ce chiffre n’est pas surestimé quand on sait qu’en moyenne, en France 4% des festivaliers sont étrangers.",
+            "content": "https://theshiftproject.org/article/decarboner-culture-rapport-2021/"
           }
         ]
       },
@@ -47,6 +51,19 @@
           {
             "content": "Les PRG et GTP captent le fait que des effets constants à courte durée de vie maintiennent un niveau de réchauffement à peu près constant, tandis que des effets constants climatiques à longue durée de vie, comme le CO2, continuent de s'accumuler dans l'atmosphère, ce qui entraîne une augmentation constante du niveau du réchauffement associé.",
             "source": "https://librairie.ademe.fr/mobilite-et-transport/4617-etat-de-l-art-de-la-recherche-scientifique-sur-l-impact-climatique-des-trainees-de-condensation-des-avions.html"
+          }
+        ]
+      },
+      {
+        "title": "Renoncements",
+        "tools": [
+          {
+            "content": "Pour des raisons écologiques, la compagnie de Jérôme Bel n’utilise plus l’avion",
+            "source": "https://www.resmusica.com/2019/09/20/pour-des-raisons-ecologiques-la-compagnie-de-jerome-bel-nutilise-plus-lavion/"
+          },
+          {
+            "content": "Innes FitzGerald, la Greta Thunberg de l’athlétisme, renonce à des médailles pour ne pas prendre l’avion",
+            "source": "https://www.leparisien.fr/sports/innes-fitzgerald-la-greta-thunberg-de-lathletisme-renonce-a-des-medailles-pour-ne-pas-prendre-lavion-04-02-2023-K4TAPMA44FASRBYTHDGFCMJHCE.php"
           }
         ]
       }
@@ -69,6 +86,57 @@
     ]
   },
   {
+    "title": "Biodiversité",
+    "icon": "🌍",
+    "iconSizeCorrection": null,
+    "navigationIdentifier": "i",
+    "subtopics": [
+      {
+        "title": "Général",
+        "tools": [
+          {
+            "content": "L’accélération de la crise mondiale de la biodiversité, avec un million d’espèces de plantes et d’animaux menacées d’extinction",
+            "source": "https://ipbes.net/media_release/Sustainable_Use_Assessment_Published"
+          },
+          {
+            "content": "Le rapport fait également état de l’utilisation et du commerce illégaux des espèces sauvages, qui concernent l’ensemble des pratiques et conduisent souvent à une utilisation non durable. Les auteurs signalent en outre que le commerce illégal d’espèces sauvages, qui, d’après les estimations, ne générerait pasmoins de 199milliards de dollars par an, se classe au troisième rang des activités commerciales illégales. Le bois et le poisson se situent en tête, en termes de volume et de valeur, du commerce illégal d’espèces sauvage",
+            "source": "https://ipbes.net/media_release/Sustainable_Use_Assessment_Published"
+          },
+          {
+            "content": "+/-50 000 : espèces sauvages utilisées pour l’alimentation,l’énergie, la médecine, les matériaux et d’autres fins par la pêche, la cueillette, l'exploitation forestière et le prélèvement d'animaux terrestres dans le monde.",
+            "source": "https://ipbes.net/media_release/Sustainable_Use_Assessment_Published"
+          },
+          {
+            "content": "38 millions de km2de terres dans 87 pays sont occupés par des peuples autochtones qui gèrent la pêche, la cueillette, le prélèvement d’animaux terrestres et d’autres utilisations des espèces sauvages, soit environ 40% des aires terrestres protégées; dont beaucoup sont d’une grande richesse en biodiversité",
+            "source": "https://ipbes.net/media_release/Sustainable_Use_Assessment_Published"
+          }
+        ]
+      },
+      {
+        "title": "Chasse",
+        "tools": [
+          {
+            "content": "La chasse non durable contribue au déclin de 1 341 espèces de mammifères sauvages de grande taille dont le faible taux de reproduction est également lié à la pression de la chasse",
+            "source": "https://ipbes.net/media_release/Sustainable_Use_Assessment_Published"
+          }
+        ]
+      },
+      {
+        "title": "Arbres",
+        "tools": [
+          {
+            "content": "Deux tiers de la production industrielle mondiale de bois rond proviennent d’espèces d’arbres sauvages.",
+            "source": "https://ipbes.net/media_release/Sustainable_Use_Assessment_Published"
+          },
+          {
+            "content": "Environ 29% : d'environ 10 000 espèces menacées ou quasi menacées appartenant à 10 groupes taxonomiques, pour lesquelles les prélèvements non durables contribuent à un risque élevé d'extinction",
+            "source": "https://ipbes.net/media_release/Sustainable_Use_Assessment_Published"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "Banques",
     "icon": "🏦",
     "iconSizeCorrection": null,
@@ -79,6 +147,22 @@
           {
             "content": "1er en Europe et 5e mondial pour l'expansion des fossiles, 1er mondial pour le pétrole et gaz (O&G) arctiques, 1er mondial pour l’O&G en mer, 1er financeur mondial de 8 géants : TotalEnergie, ExxonMobil, Chevron, Equinor, BP, ENI, Shell et Repsol, pire banque française en terme de politique de financement des centrales à charbon comme le souligne le rapport Share Action",
             "source": "https://www.linkedin.com/feed/update/urn:li:activity:7023919229473058816/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Culture",
+    "icon": "🎉",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Festivals",
+        "tools": [
+          {
+            "content": "Le Shift Project a estimé que si seulement 3% des festivaliers des Vieilles Charrues viennent en avion, ils font plus de 60% des émissions liées au transport du public ! Ce chiffre n’est pas surestimé quand on sait qu’en moyenne, en France 4% des festivaliers sont étrangers.",
+            "content": "https://theshiftproject.org/article/decarboner-culture-rapport-2021/"
           }
         ]
       }
