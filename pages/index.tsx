@@ -125,11 +125,11 @@ export default function Home() {
                         key={tool.content}
                         className="mt-3 flex items-center justify-between"
                       >
-                        <div>
+                        <div className={"max-w-full"}>
                           <div className={"text-sm"}>{tool.content}</div>
                           <div>
                             <a
-                              className="text-xs text-slate-600 hover:text-black hover:underline"
+                              className="break-all text-xs text-slate-600 hover:text-black hover:underline"
                               href={tool.source}
                               target="noopener noreferer"
                             >
@@ -138,7 +138,7 @@ export default function Home() {
                             🔗
                           </div>
                         </div>
-                        <div className={"pl-4"}>
+                        <div className={"max-w-full pl-4"}>
                           <CopyToClipboard
                             contentToCopy={`${tool.content} (${tool.source})`}
                           />
