@@ -346,5 +346,21 @@
         ]
       }
     ]
+  },
+  {
+    "title": "Climatoscepticisme",
+    "icon": "🤥",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Propagande numérique",
+        "tools": [
+          {
+            "content": "Foisonnement de comptes @Twitter\n agressifs, relayant de la désinformation visant à brouiller le constat scientifique très clair de l’intensification du changement climatique dû à l’influence humaine",
+            "source": "https://twitter.com/valmasdel/status/1625088411517198336"
+          }
+        ]
+      }
+    ]
   }
 ]
