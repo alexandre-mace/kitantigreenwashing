@@ -172,7 +172,7 @@
     "title": "Biodiversité",
     "icon": "🌍",
     "iconSizeCorrection": null,
-    "navigationIdentifier": "i",
+    "navigationIdentifier": "b",
     "subtopics": [
       {
         "title": "Général",
@@ -245,7 +245,7 @@
         "tools": [
           {
             "content": "Le Shift Project a estimé que si seulement 3% des festivaliers des Vieilles Charrues viennent en avion, ils font plus de 60% des émissions liées au transport du public ! Ce chiffre n’est pas surestimé quand on sait qu’en moyenne, en France 4% des festivaliers sont étrangers.",
-            "content": "https://theshiftproject.org/article/decarboner-culture-rapport-2021/"
+            "source": "https://theshiftproject.org/article/decarboner-culture-rapport-2021/"
           }
         ]
       }
@@ -406,7 +406,7 @@
     "title": "Activisme",
     "icon": "🪧",
     "iconSizeCorrection": null,
-    "navigationIdentifier":  "k",
+    "navigationIdentifier":  "a",
     "subtopics": [
       {
         "title": "Activisme radical",

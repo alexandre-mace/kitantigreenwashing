@@ -85,70 +85,109 @@ export default function Home() {
           </div>
         </section>
 
+        <section className={"mx-auto mt-12 max-w-sm md:max-w-4xl"}>
+          <div className="mx-auto grid gap-4 md:grid-cols-5">
+            {data
+              .sort((topicA, topicB) => (topicA.title > topicB.title ? 1 : -1))
+              .map((topic, index) => (
+                <div
+                  key={index}
+                  className="flex flex-col text-center md:text-start"
+                >
+                  <div className="inline-flex h-8 w-8 items-center justify-center rounded-md bg-white p-2 text-xl">
+                    <div
+                      className={
+                        topic.iconSizeCorrection ? "-translate-y-1" : ""
+                      }
+                    >
+                      {topic.icon}
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      data-after={getNavigationIdentifier(topic)}
+                      className={`relative mb-1 inline-block text-sm font-medium after:absolute after:-right-8 after:top-1/2 after:flex after:h-[calc(1.175rem)] after:w-[calc(1.175rem)] after:-translate-y-1/2 after:items-center after:justify-center after:rounded-md after:font-mono after:text-xs after:font-semibold after:text-slate-700 after:shadow-sm after:transition-all after:content-[attr(data-after)] ${
+                        keyPressed === getNavigationIdentifier(topic)
+                          ? "after:ring-2 after:ring-slate-900"
+                          : "after:ring-1 after:ring-slate-900/5"
+                      }`}
+                    >
+                      {topic.title}
+                    </div>
+                  </div>
+                </div>
+              ))}
+          </div>
+        </section>
+
         <section>
           <div
             className="mx-auto mt-12 grid max-w-[90%] gap-12 pt-16 md:grid-cols-3"
             id="kit"
           >
-            {data.map((topic, index) => (
-              <div
-                key={index}
-                className="flex flex-col text-center md:text-start"
-                id={getNavigationIdentifier(topic)}
-              >
-                <div className="icon-wrapper-animation inline-flex h-20 w-20 items-center justify-center rounded-md bg-white p-4 text-5xl shadow ring-1 ring-slate-900/10">
-                  <div
-                    className={topic.iconSizeCorrection ? "-translate-y-1" : ""}
-                  >
-                    {topic.icon}
+            {data
+              .sort((topicA, topicB) => (topicA.title > topicB.title ? 1 : -1))
+              .map((topic, index) => (
+                <div
+                  key={index}
+                  className="flex flex-col text-center md:text-start"
+                  id={getNavigationIdentifier(topic)}
+                >
+                  <div className="icon-wrapper-animation inline-flex h-20 w-20 items-center justify-center rounded-md bg-white p-4 text-5xl shadow ring-1 ring-slate-900/10">
+                    <div
+                      className={
+                        topic.iconSizeCorrection ? "-translate-y-1" : ""
+                      }
+                    >
+                      {topic.icon}
+                    </div>
                   </div>
-                </div>
-                <div>
-                  <h2
-                    data-after={getNavigationIdentifier(topic)}
-                    className={`relative mt-5 mb-3 inline-block text-2xl font-bold after:absolute after:-right-10 after:top-1/2 after:flex after:h-[calc(1.375rem+1px)] after:w-[calc(1.375rem+1px)] after:-translate-y-1/2 after:items-center after:justify-center after:rounded-md after:font-mono after:text-sm after:font-bold after:text-slate-700 after:shadow-sm after:transition-all after:content-[attr(data-after)] ${
-                      keyPressed === getNavigationIdentifier(topic)
-                        ? "after:ring-2 after:ring-slate-900"
-                        : "after:ring-1 after:ring-slate-900/5"
-                    }`}
-                  >
-                    {topic.title}
-                  </h2>
-                </div>
-                {topic.subtopics.map((subtopic) => (
-                  <div key={topic.title + subtopic.title}>
-                    <h3 className={`mt-4 text-xl font-bold`}>
-                      {subtopic.title}
-                    </h3>
-                    {subtopic.tools.map((tool) => (
-                      <div
-                        key={tool.content}
-                        className="mt-3 flex items-center justify-between"
-                      >
-                        <div className={"max-w-full"}>
-                          <div className={"text-sm"}>{tool.content}</div>
-                          <div>
-                            <a
-                              className="break-all text-xs text-slate-600 hover:text-black hover:underline"
-                              href={tool.source}
-                              target="noopener noreferer"
-                            >
-                              {tool.source}
-                            </a>{" "}
-                            🔗
+                  <div>
+                    <h2
+                      data-after={getNavigationIdentifier(topic)}
+                      className={`relative mt-5 mb-3 inline-block text-2xl font-bold after:absolute after:-right-10 after:top-1/2 after:flex after:h-[calc(1.375rem+1px)] after:w-[calc(1.375rem+1px)] after:-translate-y-1/2 after:items-center after:justify-center after:rounded-md after:font-mono after:text-sm after:font-bold after:text-slate-700 after:shadow-sm after:transition-all after:content-[attr(data-after)] ${
+                        keyPressed === getNavigationIdentifier(topic)
+                          ? "after:ring-2 after:ring-slate-900"
+                          : "after:ring-1 after:ring-slate-900/5"
+                      }`}
+                    >
+                      {topic.title}
+                    </h2>
+                  </div>
+                  {topic.subtopics.map((subtopic) => (
+                    <div key={topic.title + subtopic.title}>
+                      <h3 className={`mt-4 text-xl font-bold`}>
+                        {subtopic.title}
+                      </h3>
+                      {subtopic.tools.map((tool) => (
+                        <div
+                          key={tool.content}
+                          className="mt-3 flex items-center justify-between"
+                        >
+                          <div className={"max-w-full"}>
+                            <div className={"text-sm"}>{tool.content}</div>
+                            <div>
+                              <a
+                                className="break-all text-xs text-slate-600 hover:text-black hover:underline"
+                                href={tool.source}
+                                target="noopener noreferer"
+                              >
+                                {tool.source}
+                              </a>{" "}
+                              🔗
+                            </div>
+                          </div>
+                          <div className={"max-w-full pl-4"}>
+                            <CopyToClipboard
+                              contentToCopy={`${tool.content} (${tool.source})`}
+                            />
                           </div>
                         </div>
-                        <div className={"max-w-full pl-4"}>
-                          <CopyToClipboard
-                            contentToCopy={`${tool.content} (${tool.source})`}
-                          />
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                ))}
-              </div>
-            ))}
+                      ))}
+                    </div>
+                  ))}
+                </div>
+              ))}
           </div>
         </section>
       </main>
