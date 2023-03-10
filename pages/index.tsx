@@ -88,24 +88,24 @@ export default function Home() {
           </div>
         </section>
 
-        <section className={"mx-auto mt-12 max-w-sm md:max-w-4xl"}>
-          <div className="mx-auto grid gap-x-4 md:grid-cols-4">
+        <section className={"mx-auto mt-12 max-w-sm md:max-w-5xl"}>
+          <div className="mx-auto grid gap-x-4 gap-y-0.5 md:grid-cols-4">
             {data
               .sort((topicA, topicB) => (topicA.title > topicB.title ? 1 : -1))
               .map((topic, index) => (
                 <div
-                  key={index}
+                  key={index + "summary"}
                   className="flex flex-col text-center md:text-start"
                 >
                   <div
                     className={
-                      "hover:icon-wrapper-animation cursor-pointer rounded-lg p-3 hover:shadow hover:ring-1 hover:ring-slate-900/10"
+                      "inline-flex cursor-pointer items-center rounded-lg bg-white p-1 hover:shadow hover:ring-1 hover:ring-slate-900/10"
                     }
                     onClick={() =>
                       handleScrollToSection(getNavigationIdentifier(topic))
                     }
                   >
-                    <div className="inline-flex h-8 w-8 items-center justify-center rounded-md bg-white p-2 text-xl">
+                    <div className="mr-1 inline-flex h-8 w-8 items-center justify-center rounded-md bg-white p-2 text-xl">
                       <div
                         className={
                           topic.iconSizeCorrection ? "-translate-y-1" : ""
