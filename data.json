@@ -20,6 +20,80 @@
     ]
   },
   {
+    "title": "Agriculture",
+    "icon": "⛽️",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Empreinte au sol",
+        "tools": [
+          {
+            "content": "L’élevage représente entre 20 et 35% des terres émergées, la fourchette dépend de la définition que l’on donne aux surfaces pâturées. 400 millions d’hectares de terres arables utilisées pour l’élevage (+d’1/4 des terres utilisées pour nourrir les animaux d’élevage)",
+            "source": "https://afterres2050.solagro.org/debattre/elevage/"
+          }
+        ]
+      },
+      {
+        "title": "Émissions",
+        "tools": [
+          {
+            "content": "Élevage = 14% des émissions directes dans l’inventaire nationale, mais il faut ajouter \n* Mise en culture des aliments pour les animaux\n* Émissions générées par la fabrication des intrants\n* Émissions induites par la déforestation imputables à l’élevage\nCela représente 70% des émissions du système alimentaire au global en émissions directes, mais + de 85% en émissions indirectes",
+            "source": "https://afterres2050.solagro.org/debattre/elevage/"
+          },
+          {
+            "content": "L’élevage industriel n’est pas bcp + responsables des émissions de GES de l’agriculture qu’un autre type d’élevage. 3 sources principales : fermentations entériques, déjections d’élevage, alimentation des animaux. Les émissions par l ou kg produits varient peu selon les types d’élevage. Les prairies ne peuvent pas stocker indéfiniment du carbone, c’est vrai pour les jeunes prairies mais pas pour toutes les prairies car un équilibre est atteint à terme. En France, l’étude 4 pour 1000 a montré que cet effet de stockage est assez faible, il est loin de compenser les émissions des fermentations entériques. Cependant, un retournement des cultures n’est pas souhaitable car le stockage est lent, et le destockage est rapide.",
+            "source": "https://afterres2050.solagro.org/debattre/elevage/"
+          }
+        ]
+      },
+      {
+        "title": "Azote et élevage",
+        "tools": [
+          {
+            "content": "Les animaux ne fabriquent pas d’azote, ni de matière organique. Ce sont les êtres autotrophes qui fabriquent de la matière organique (les végétaux). Les animaux sont hétérotrophes transforment les molécules avec une déperdition (10% d’azote perdu chaque année). L’azote provient des aliments ingérés par les animaux. Les deux sources d’entrées d’azote dans l’agrosystème : fixation symbiotique et engrais azotés. On n’a pas absolument besoin des animaux pour augmenter la fertilité des sols, si l’on veut augmenter la matière organique et l’azote il faut des engrais verts et des légumineuses.",
+            "source": "https://afterres2050.solagro.org/debattre/elevage/"
+          }
+        ]
+      },
+      {
+        "title": "Ruminants",
+        "tools": [
+          {
+            "content": "Dans le monde, l’élevage représente 1/4 des surfaces arables (en majorité des grains pour les monogastriques), cet argument est souvent utilisé pour défendre un statu quo pour les ruminants (image de la vache à l’herbe sur prairie naturelle). En France, on utilise 40% des terres arables pour nourrir les ruminants (concurrence directe avec l’alimentation humaine pour leur utilisation fourragère).",
+            "source": "https://afterres2050.solagro.org/debattre/elevage/"
+          }
+        ]
+      },
+      {
+        "title": "Polyculture élevage",
+        "tools": [
+          {
+            "content": "Le système polyculture-élevage fonctionne sans problème jusqu’à la question de la généralisation. Si l’on veut massifier l’agriculture biologique, la fumure animale ne peut fournir qu’une partie des apports d’azote, il faut donc des systèmes sans élevage avec beaucoup de légumineuses.",
+            "source": "https://afterres2050.solagro.org/debattre/elevage/"
+          }
+        ]
+      },
+      {
+        "title": "Polyculture élevage",
+        "tools": [
+          {
+            "content": "Le système polyculture-élevage fonctionne sans problème jusqu’à la question de la généralisation. Si l’on veut massifier l’agriculture biologique, la fumure animale ne peut fournir qu’une partie des apports d’azote, il faut donc des systèmes sans élevage avec beaucoup de légumineuses.",
+            "source": "https://afterres2050.solagro.org/debattre/elevage/"
+          }
+        ]
+      },
+      {
+        "title": "Forêt vs prairie",
+        "tools": [
+          {
+            "content": "Une afforestation est souhaitable dans de nombreux cas mais certaines prairies présentent une valeur écologique élevée et nécessitent une protection active que seul l’élevage semble en mesure d’offrir actuellement. Par exemple, certaines prairies maintiennent une coupure ouverte, ce qui réduit fortement le risque d’incendie. La dynamique actuelle de reboisement des prairies est déjà rapide, l’accélérer est un risque de déséquilibrage des adaptations en cours. En revanche, reboiser des territoires à dominante de grandes cultures  ou de zones périurbaines pourrait générer de grands bénéfices. ",
+            "source": "https://afterres2050.solagro.org/debattre/elevage/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "Aviation",
     "icon": "✈️",
     "iconSizeCorrection": null,
