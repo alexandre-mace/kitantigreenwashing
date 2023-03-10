@@ -16,16 +16,19 @@ export default function Home() {
       if (event.isComposing || event.keyCode === 229) {
         return;
       }
-
-      const section = document.querySelector("#" + event.key);
-      if (!section) return;
-      setKeyPressed(event.key);
-      section.scrollIntoView({ behavior: "smooth", block: "start" });
-      setTimeout(() => {
-        setKeyPressed(null);
-      }, 1000);
+      handleScrollToSection(event.key);
     });
   }, []);
+
+  const handleScrollToSection = (key: string) => {
+    const section = document.querySelector("#" + key);
+    if (!section) return;
+    setKeyPressed(key);
+    section.scrollIntoView({ behavior: "smooth", block: "start" });
+    setTimeout(() => {
+      setKeyPressed(null);
+    }, 1000);
+  };
 
   return (
     <>
@@ -86,7 +89,7 @@ export default function Home() {
         </section>
 
         <section className={"mx-auto mt-12 max-w-sm md:max-w-4xl"}>
-          <div className="mx-auto grid gap-4 md:grid-cols-5">
+          <div className="mx-auto grid gap-x-4 md:grid-cols-4">
             {data
               .sort((topicA, topicB) => (topicA.title > topicB.title ? 1 : -1))
               .map((topic, index) => (
@@ -94,25 +97,34 @@ export default function Home() {
                   key={index}
                   className="flex flex-col text-center md:text-start"
                 >
-                  <div className="inline-flex h-8 w-8 items-center justify-center rounded-md bg-white p-2 text-xl">
-                    <div
-                      className={
-                        topic.iconSizeCorrection ? "-translate-y-1" : ""
-                      }
-                    >
-                      {topic.icon}
+                  <div
+                    className={
+                      "hover:icon-wrapper-animation cursor-pointer rounded-lg p-3 hover:shadow hover:ring-1 hover:ring-slate-900/10"
+                    }
+                    onClick={() =>
+                      handleScrollToSection(getNavigationIdentifier(topic))
+                    }
+                  >
+                    <div className="inline-flex h-8 w-8 items-center justify-center rounded-md bg-white p-2 text-xl">
+                      <div
+                        className={
+                          topic.iconSizeCorrection ? "-translate-y-1" : ""
+                        }
+                      >
+                        {topic.icon}
+                      </div>
                     </div>
-                  </div>
-                  <div>
-                    <div
-                      data-after={getNavigationIdentifier(topic)}
-                      className={`relative mb-1 inline-block text-sm font-medium after:absolute after:-right-8 after:top-1/2 after:flex after:h-[calc(1.175rem)] after:w-[calc(1.175rem)] after:-translate-y-1/2 after:items-center after:justify-center after:rounded-md after:font-mono after:text-xs after:font-semibold after:text-slate-700 after:shadow-sm after:transition-all after:content-[attr(data-after)] ${
-                        keyPressed === getNavigationIdentifier(topic)
-                          ? "after:ring-2 after:ring-slate-900"
-                          : "after:ring-1 after:ring-slate-900/5"
-                      }`}
-                    >
-                      {topic.title}
+                    <div>
+                      <div
+                        data-after={getNavigationIdentifier(topic)}
+                        className={`relative mb-1 inline-block text-sm font-medium after:absolute after:-right-8 after:top-1/2 after:flex after:h-[calc(1.175rem)] after:w-[calc(1.175rem)] after:-translate-y-1/2 after:items-center after:justify-center after:rounded-md after:font-mono after:text-xs after:font-semibold after:text-slate-700 after:shadow-sm after:transition-all after:content-[attr(data-after)] ${
+                          keyPressed === getNavigationIdentifier(topic)
+                            ? "after:ring-2 after:ring-slate-900"
+                            : "after:ring-1 after:ring-slate-900/5"
+                        }`}
+                      >
+                        {topic.title}
+                      </div>
                     </div>
                   </div>
                 </div>
