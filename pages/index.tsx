@@ -50,8 +50,10 @@ export default function Home() {
           /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
           _paq.push(['trackPageView']);
           _paq.push(['enableLinkTracking']);
+          // eslint-disable-next-line @typescript-eslint/ban-ts-comment
           // @ts-ignore
           (function() {
+          // eslint-disable-next-line @typescript-eslint/ban-ts-comment
           // @ts-ignore
           var u="https://climatelab.matomo.cloud/";
           _paq.push(['setTrackerUrl', u+'matomo.php']);
