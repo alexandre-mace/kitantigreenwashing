@@ -1,11 +1,8 @@
-// @ts-nocheck
-
 import Head from "next/head";
 import data from "../data.json";
 import CopyToClipboard from "../components/CopyToClipboard";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import Script from "next/script";
 
 let listeningToKeyboard = false;
 
@@ -33,7 +30,6 @@ export default function Home() {
     }, 1000);
   };
 
-
   return (
     <>
       <Head>
@@ -47,20 +43,6 @@ export default function Home() {
           rel="icon"
           href="https://em-content.zobj.net/thumbs/240/apple/325/magic-wand_1fa84.png"
         />
-        <script>
-          var _paq = window._paq = window._paq || [];
-          /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-          _paq.push(['trackPageView']);
-          _paq.push(['enableLinkTracking']);
-          (function() {
-          var u="https://climatelab.matomo.cloud/";
-          _paq.push(['setTrackerUrl', u+'matomo.php']);
-          _paq.push(['setSiteId', '7']);
-          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-          g.async=true; g.src='//cdn.matomo.cloud/climatelab.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
-        })();
-        </script>
-
       </Head>
       <main></main>
       <main className={"mx-auto w-11/12 pb-48 md:w-full"}>
