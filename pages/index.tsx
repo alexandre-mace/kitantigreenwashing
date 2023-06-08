@@ -31,6 +31,7 @@ export default function Home() {
     }, 1000);
   };
 
+
   return (
     <>
       <Head>
@@ -49,7 +50,9 @@ export default function Home() {
           /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
           _paq.push(['trackPageView']);
           _paq.push(['enableLinkTracking']);
+          // @ts-ignore
           (function() {
+          // @ts-ignore
           var u="https://climatelab.matomo.cloud/";
           _paq.push(['setTrackerUrl', u+'matomo.php']);
           _paq.push(['setSiteId', '7']);
