@@ -44,7 +44,6 @@ export default function Home() {
           rel="icon"
           href="https://em-content.zobj.net/thumbs/240/apple/325/magic-wand_1fa84.png"
         />
-        <!-- Matomo -->
         <script>
           var _paq = window._paq = window._paq || [];
           /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
@@ -58,7 +57,6 @@ export default function Home() {
           g.async=true; g.src='//cdn.matomo.cloud/climatelab.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
         })();
         </script>
-        <!-- End Matomo Code -->
 
       </Head>
       <main></main>
