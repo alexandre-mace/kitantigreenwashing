@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 const instance = createInstance({
   urlBase: "https://climatelab.matomo.cloud/",
+  trackerUrl: "https://climatelab.matomo.cloud/matomo.php",
   siteId: 7,
 });
 
