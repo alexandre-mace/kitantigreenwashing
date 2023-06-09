@@ -3,16 +3,13 @@ import data from "../data.json";
 import CopyToClipboard from "../components/CopyToClipboard";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { useMatomo } from "@datapunt/matomo-tracker-react";
 
 let listeningToKeyboard = false;
 
 export default function Home() {
   const [keyPressed, setKeyPressed] = useState<string | null>(null);
-  const { trackPageView, trackEvent } = useMatomo();
 
   useEffect(() => {
-    trackPageView({});
     if (listeningToKeyboard) return;
     listeningToKeyboard = true;
     document.addEventListener("keydown", (event) => {
